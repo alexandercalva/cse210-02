@@ -25,5 +25,6 @@ If a player decides not to play again the game is over.
 Alexander Calva
 Mark Richmond
 Jake Soulier
+Johanna Schick
 Didier Virguez
 
