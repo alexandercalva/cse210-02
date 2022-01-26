@@ -3,7 +3,7 @@ from player import Player
 from dealer import Dealer
 
 def main():
-    pass
+    
 
 if __name__ == "__main__":
     main()    
