@@ -1,6 +1,9 @@
 from random import randrange
 
 class Card():
+    """
+    Card class holds information about the cards being delt.  Whenever requested, the class returns a random suit and face value.
+    """
 
     def __init__(self):
         """
@@ -8,7 +11,16 @@ class Card():
         """
         self.suit = ''
 
+    def get_face_value(self):
+        """
+        get_face_value returns a random face value (1 - 13) for the card requested.
+        """
+        return (randrange(1,13))
+
     def get_suit(self):
+        """
+        get_suit returns a random suit for the card requested.
+        """
         suit = randrange(1,4)
         if suit == 1: 
             self.card_suit = chr(9829) #heart
@@ -19,6 +31,3 @@ class Card():
         else: 
             self.card_suit = chr(9829) #diamond        
         return(self.card_suit)
-    
-    def get_face_value(self):
-        return (randrange(1,13))

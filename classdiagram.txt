@@ -10,7 +10,6 @@
                       | - hilo_choice       |
                       |---------------------|
                       | + play_game()       |
-                      | - deal_card()       |
                       | - choose_high_low() |
                       | - settle_score()    |
                       |=====================|
