@@ -1,4 +1,3 @@
-from card import Card
 from player import Player
 from dealer import Dealer
 
