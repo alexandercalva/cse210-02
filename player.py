@@ -9,8 +9,15 @@ class Player():
         __init__(self) -- This function identifies and sets the initial values for this class
         """
         self.score = 300
-                
+                   
+    def win(self):
+        self.score += 100
+
+    def lose(self):
+        self.score -= 75
+        if self.score < 0:
+            self.score = 0
+
+    def get_score(self):
+        return(self.score)
     
-    def get_score(self, new_score):
-         self.score += new_score
-         return self.score  
