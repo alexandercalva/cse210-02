@@ -5,6 +5,9 @@ Player - This class holds information about the player's score and allows the de
 class Player():
 
     def __init__(self):
+        """
+        __init__(self) -- This function identifies and sets the initial values for this class
+        """
         self.score = 300
                 
     
